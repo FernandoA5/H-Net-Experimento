@@ -1,0 +1,10 @@
+[package]
+name = "flow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "0.21", default-features = false, features = ["train", "ndarray"] }
+mamba-2 = { path = "../mamba-2" }
+mixture-of-experts = { path = "../mixture-of-experts" }
+self-attention = { path = "../self-attention" }

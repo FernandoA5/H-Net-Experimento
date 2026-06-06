@@ -1,0 +1,4 @@
+Corpus/
+target/
+**/target/
+**/.git/

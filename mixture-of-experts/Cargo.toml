@@ -1,0 +1,9 @@
+[package]
+name = "mixture-of-experts"
+version = "0.1.0"
+edition = "2021"
+description = "Canonical top-k Mixture of Experts implementation using Burn-Rs"
+
+[dependencies]
+burn = { version = "0.21", default-features = false, features = ["train", "ndarray"] }
+serde = { version = "1", features = ["derive"] }

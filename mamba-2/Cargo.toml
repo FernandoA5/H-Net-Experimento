@@ -1,0 +1,9 @@
+[package]
+name = "mamba-2"
+version = "0.1.0"
+edition = "2021"
+description = "Canonical Mamba-2 implementation using Burn-Rs"
+
+[dependencies]
+burn = { version = "0.21", default-features = false, features = ["train", "ndarray"] }
+serde = { version = "1", features = ["derive"] }
